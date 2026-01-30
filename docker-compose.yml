@@ -5,11 +5,11 @@ services:
     image: bryangerlach/rdgen:latest
     restart: unless-stopped
     environment:
-      SECRET_KEY: "django-insecure-!(t-!f#6g#sr%yfded9(xha)g+=!6craeez^cp+*&bz_7vdk61"
-      GHUSER: "github_username"
-      GHBEARER: "github_access_token"
-      GENURL: "accessible_url_of_server"
-      ZIP_PASSWORD: ""
+      SECRET_KEY: "dYS5H9@Hi{ipJx21gg7lcNtzc~yO*M1Am8fBzb%Z"
+      GHUSER: "EduardStn"
+      GHBEARER: "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"
+      GENURL: "rdgen.tatbox.ru"
+      ZIP_PASSWORD: "evFLq}~pQFD9MF95WXMR"
       GHBRANCH: "master"
       PROTOCOL: "https"
       REPONAME: "rdgen"
